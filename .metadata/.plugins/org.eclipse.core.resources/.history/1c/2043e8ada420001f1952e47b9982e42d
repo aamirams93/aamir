@@ -1,0 +1,16 @@
+package com.image.rest;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ReController
+{
+	public ResponseEntity<String> getWelcome()
+	{
+		String payLoad = "Welcome to Rest Api";
+		return new ResponseEntity<String>(payLoad,HttpStatus.OK);
+	}
+}

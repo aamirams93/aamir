@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: Spring-config-client-github-1

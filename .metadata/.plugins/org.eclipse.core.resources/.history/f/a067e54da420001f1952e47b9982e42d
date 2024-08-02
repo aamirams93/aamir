@@ -1,0 +1,7 @@
+package com.image.rest;
+
+@org.springframework.web.bind.annotation.RestController
+public class ReController
+{
+
+}

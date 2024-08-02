@@ -1,0 +1,19 @@
+package com.image.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+
+import com.image.binding.Product;
+
+
+@RestController
+public class ProductController
+{
+	public ResponseEntity<String> addproduct(@RequestBody Product pr)
+	{
+		System.out.println(pr);
+		return new ResponseEntity<String>(Body,Status);
+	}
+}

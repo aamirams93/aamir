@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Spring-config-server-github
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aamirams93/configuration_properties.git
+          clone-on-start: true
+
+management:
+  security:
+     enabled:flase
+  
+  
+    

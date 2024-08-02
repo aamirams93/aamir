@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: welcome
+  cloud:
+    config:
+      uri: 8086
+ 

@@ -1,0 +1,17 @@
+package com.image;
+
+import org.hibernate.validator.internal.util.logging.LoggerFactory;
+import org.springframework.cloud.gateway.filter.GatewayFilterChain;
+import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.web.server.ServerWebExchange;
+
+import reactor.core.publisher.Mono;
+
+public class FilterClass implements GlobalFilter
+{	Logger log = org.slf4j.LoggerFactory.getILoggerFactory()
+	@Override
+	public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain)
+	{
+		return null;
+	}
+}

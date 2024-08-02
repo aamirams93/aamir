@@ -1,0 +1,19 @@
+
+z
+java:S1192#"FDefine a constant instead of duplicating this literal "ADMIN" 3 times.b af9b0699fd621f393bd10465650e7da7h
+v
+java:S6813"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S1874"BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.b fd395e2396c92445bd8055474fe34d6ch
+r
+java:S5344">Don't use the default "PasswordEncoder" relying on plain-text.b 3408374e40d6608f6300f9d8bedfd37bh
+`
+java:S1874!",Remove this use of "csrf"; it is deprecated.b ca969a1bc97732d97b1e88ce8396c216h
+m
+java:S1874!"9Remove this use of "authorizeRequests"; it is deprecated.b 857b000f48d56ab5f752cdb313a9e902h
+e
+java:S1874'"1Remove this use of "httpBasic"; it is deprecated.b 95f89675cdacc5bc88858e3d53c6bd14h
+_
+java:S1874("+Remove this use of "and"; it is deprecated.b be5d5d37542d75f93a87094459f76678h
+e
+java:S1874)"1Remove this use of "formLogin"; it is deprecated.b 04b63a3dcf0d7df11cdb2b15b06daa0ch

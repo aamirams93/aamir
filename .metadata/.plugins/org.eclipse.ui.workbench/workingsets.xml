@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716395923113_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716395923130_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716395990862_3" label="CompsitePrimary" name="CompsitePrimary">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CompsitePrimary" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396133141_4" label="01-first-pro" name="01-first-pro">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-first-pro" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396146899_5" label="01-sp" name="01-sp">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-sp" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396162474_6" label="01-spring" name="01-spring">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/01-spring" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396180044_7" label="08-springboot-app" name="08-springboot-app">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/09-springboot-app2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396223853_8" label="CustomDataGenretor" name="CustomDataGenretor">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CustomDataGenretor" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396252891_9" label="InserImageWithJPA" name="InserImageWithJPA">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InserImageWithJPA" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396293871_10" label="springwebApp2" name="springwebApp2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springwebApp2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396308432_11" label="SpringWebApp1" name="SpringWebApp1">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringWebApp1" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396341547_12" label="springWebMVC3" name="springWebMVC3">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springWebMVC3" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716396354147_13" label="TransactionRollBack" name="TransactionRollBack">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TransactionRollBack" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716456553594_14" label="FirstJPA" name="FirstJPA">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FirstJPA" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716456578327_15" label="Jpa" name="Jpa">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Jpa" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716456609118_16" label="lombok" name="lombok">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lombok" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716467603677_17" label="Banking_Domain" name="Banking_Domain">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Banking_Domain" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1716395923703_2" label="Window Working Set" name="Aggregate for window 1716395923703"/>
+</workingSetManager>

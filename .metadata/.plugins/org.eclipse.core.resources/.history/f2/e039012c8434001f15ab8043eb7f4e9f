@@ -1,0 +1,25 @@
+package com.image.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ExceptionController
+{
+	private String p1;
+	
+	@GetMapping("/")
+	public String getException()
+	{
+		String msg =  "welcome aamir";
+		
+		try {
+			int i = 10/0;
+		} catch (Exception e) {
+			
+		}
+		return msg;
+		
+	}
+
+}

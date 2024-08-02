@@ -1,0 +1,11 @@
+package com.image.ecntity;
+
+import lombok.Data;
+
+@Data
+public class UserSetting {
+	private String Unmae;
+	private String pwd;
+	private String email;
+	private Integer age;
+}

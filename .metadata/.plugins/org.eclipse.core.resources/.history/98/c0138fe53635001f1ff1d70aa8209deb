@@ -1,0 +1,16 @@
+package com.image.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class WelcomeApiService
+{
+	String apiUrl= "http://localhost:8081/";
+	
+	public String invokeApi()
+	{
+		
+	}
+	
+
+}

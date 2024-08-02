@@ -1,0 +1,52 @@
+package com.image.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.image.binding.CustomerEvent;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+import java.time.Duration;
+import java.util.Date;
+import java.util.stream.Stream;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@RestController
+public class CustomerController
+{
+	@GetMapping(value = "/event", produces = "application/json")
+	public ResponseEntity<Mono<CustomerEvent>> getEvent()
+	{
+		CustomerEvent cs = new CustomerEvent("Aamir", new Date());
+		Mono<CustomerEvent> customerMono = Mono.just(cs);
+		return new ResponseEntity<Mono<CustomerEvent>>(customerMono, HttpStatus.OK);
+	}
+
+	@GetMapping(value = "/event", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+	public ResponseEntity<Flux<CustomerEvent>> getEvents()
+	{
+		// creating binding object with data
+		CustomerEvent cs = new CustomerEvent("Aamir", new Date());
+		
+		// creating stream for binding object
+		Stream<CustomerEvent> customerStream = Stream.generate(() -> cs);
+
+		// create flux object using stream
+		Flux<CustomerEvent> customerFlux = Flux.fromStream(customerStream);
+		
+		// setting response interval
+		Flux<Long> interval = Flux.interval(Duration.ofSeconds(5));
+		
+		// combine interval flux and customer event flux
+		
+		
+		
+
+	}
+
+}

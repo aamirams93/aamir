@@ -1,0 +1,10 @@
+package com.image.converter;
+
+public class ConvertXmlToJava
+{
+	public static void main(String[] args) throws Exception
+	{
+		
+	}
+
+}

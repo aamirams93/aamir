@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/administrator/Music/Banking_App_Maagement-20220825T060815Z-001"/>
+			<item value="/home/administrator/imageinfo-workspace/lombok"/>
+			<item value="/home/administrator/imageinfo-workspace/Jpa"/>
+			<item value="/home/administrator/imageinfo-workspace/FirstJPA"/>
+			<item value="/home/administrator/imageinfo-workspace/TransactionRollBack"/>
+			<item value="/home/administrator/imageinfo-workspace/springWebMVC3"/>
+			<item value="/home/administrator/imageinfo-workspace/SpringWebApp1"/>
+			<item value="/home/administrator/imageinfo-workspace/springwebApp2"/>
+			<item value="/home/administrator/imageinfo-workspace/InserImageWithJPA"/>
+			<item value="/home/administrator/imageinfo-workspace/CustomDataGenretor"/>
+			<item value="/home/administrator/imageinfo-workspace/09-springboot-app2"/>
+			<item value="/home/administrator/imageinfo-workspace/01-spring"/>
+			<item value="/home/administrator/imageinfo-workspace/01-sp"/>
+			<item value="/home/administrator/imageinfo-workspace/01-first-pro"/>
+			<item value="/home/administrator/imageinfo-workspace/CompsitePrimary"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="493"/>
+		<item key="x" value="480"/>
+		<item key="y" value="53"/>
+	</section>
+</section>

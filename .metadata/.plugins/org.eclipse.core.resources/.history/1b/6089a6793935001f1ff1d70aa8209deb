@@ -1,0 +1,27 @@
+package com.image.service;
+
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class WelcomeApiService
+{
+	String apiUrl= "http://localhost:8081/";
+	
+	public void invokeApi()
+	{
+		RestTemplate rt = new  RestTemplate();
+		HttpHeaders ht = new HttpHeaders();
+		ht.setBasicAuth("ams","ams123");
+		HttpEntity<String> he = new HttpEntity<>(ht);
+		
+		ResponseEntity<String> rs = rt.getForEntity(apiUrl, String.class);
+		String body = rs.getBody();
+		System.out.println(body);
+	}
+	
+
+}

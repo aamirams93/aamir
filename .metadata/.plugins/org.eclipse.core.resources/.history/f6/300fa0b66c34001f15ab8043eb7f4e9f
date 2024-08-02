@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  cloud:
+    config:
+      enabled: false
+      import-check:
+        enabled: false
+

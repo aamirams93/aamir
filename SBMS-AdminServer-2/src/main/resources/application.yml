@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SBMS-AdminServer-2
+    
+server:
+  port: 1111
+  
+

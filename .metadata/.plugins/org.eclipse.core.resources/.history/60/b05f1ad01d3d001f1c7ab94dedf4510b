@@ -1,0 +1,22 @@
+package com.image.entity;
+
+@Service
+public class BookServiceImpl implements BookService {
+
+	private BookRepository repository;
+
+	public BookServiceImpl(BookRepository repository) {
+		this.repository = repository;
+	}
+
+	@Override
+	public String upsertBook(Book book) {
+		repository.save(book);
+		return "Record Inserted";
+	}
+
+	@Override
+	public List<Book> getAllBooks() {
+		return repository.findAll();
+	}
+}

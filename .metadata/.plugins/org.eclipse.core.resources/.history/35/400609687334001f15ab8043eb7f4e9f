@@ -1,0 +1,27 @@
+package com.image.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.image.binding.CustomerEvent;
+
+import ch.qos.logback.core.status.Status;
+import reactor.core.publisher.Mono;
+
+import java.util.Date;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+
+@RestController
+public class CustomerController
+{
+	@GetMapping()
+	public ResponseEntity<Mono<CustomerEvent>> getEvent() {
+		CustomerEvent cs = new  CustomerEvent("Aamir",new Date());
+		Mono<CustomerEvent> customerMono = Mono.just(cs);
+		return ResponseEntity<Mono<CustomerEvent>>(customerMono,Status)
+	}
+		
+}

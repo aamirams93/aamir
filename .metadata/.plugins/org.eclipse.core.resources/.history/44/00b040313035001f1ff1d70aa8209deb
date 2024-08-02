@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Spring-rest-security
+  security:
+    user:
+      name: aamir
+      
+server:
+  port: 8081

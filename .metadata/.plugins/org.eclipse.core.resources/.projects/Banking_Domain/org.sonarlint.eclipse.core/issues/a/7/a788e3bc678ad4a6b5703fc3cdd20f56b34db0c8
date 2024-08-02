@@ -1,0 +1,7 @@
+
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 490aa6e856ccf208a054389e47ce0d06h
+ç
+java:S1488#"YImmediately return this expression instead of assigning it to the temporary variable "a".b e9c2132d8f3a8896a8af9e48eb7e9578h
+ì
+java:S1488,"_Immediately return this expression instead of assigning it to the temporary variable "acclist".b 39a3d2b0f82ae2bea7793708b7517637h
+o	java:S125"<This block of commented-out lines of code should be removed.b 06d608dae0e900fa5a2d389685c998e7h

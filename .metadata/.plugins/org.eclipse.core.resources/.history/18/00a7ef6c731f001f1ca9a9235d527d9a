@@ -1,0 +1,18 @@
+package com.image.converter;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+
+import com.image.binding.Persons;
+
+public class ConvertXmlToJava
+{
+	public static void main(String[] args) throws Exception
+	{
+		File xmlFile = new File("Persons.xml");
+		JAXBContext ctx = JAXBContext.newInstance(Persons.class);
+		
+	}
+
+}

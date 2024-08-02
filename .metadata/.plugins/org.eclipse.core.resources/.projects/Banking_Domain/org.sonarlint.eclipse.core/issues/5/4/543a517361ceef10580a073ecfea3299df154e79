@@ -1,0 +1,5 @@
+
+v
+java:S6813"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+–
+java:S1845$"bRename method "alltransaction" to prevent any misunderstanding/clash with method "allTransaction".b 4bb3dcd3b0e094c5b676596d6ebeecd9h

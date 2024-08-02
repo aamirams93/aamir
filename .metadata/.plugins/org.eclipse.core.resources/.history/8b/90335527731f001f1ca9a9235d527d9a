@@ -1,0 +1,13 @@
+package com.image.converter;
+
+import java.io.File;
+
+public class ConvertXmlToJava
+{
+	public static void main(String[] args) throws Exception
+	{
+		File xmlFile = new File();
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+
+p
+java:S1854"<Remove this useless assignment to local variable "findData".b 9f4416bcd375b27e40f6f440de907599h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+a
+java:S1481"-Remove this unused "findData" local variable.b 974f1741c6a985d46dadc30106b78372h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

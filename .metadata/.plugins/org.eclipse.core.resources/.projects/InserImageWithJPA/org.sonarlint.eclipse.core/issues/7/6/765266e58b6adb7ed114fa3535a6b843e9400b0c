@@ -1,0 +1,15 @@
+
+y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.b b0d4998a26f5b5742ad38c4af8817e32h
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 6187550318b3aebf8174d028e96edb9bh
+Å
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.b 1293d9697827f7990c1376125168304ah
+v
+java:S6813"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+u
+java:S1075"ARefactor your code to get this URI from a customizable parameter.b ca9a6cd5f6dade9d8d277dad369dc6d1h
+~
+java:S2674"JCheck the return value of the "read" call to see how many bytes were read.b ecae13117d6f0584c25a9da6c8f8415eh
+n
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.b b89887a624e18fec4911b47173e97534h
+d
+java:S1128"0Remove this unused import 'java.io.IOException'.b b4d0c6ab436c3bc3a3bfe8df6b26cb6eh

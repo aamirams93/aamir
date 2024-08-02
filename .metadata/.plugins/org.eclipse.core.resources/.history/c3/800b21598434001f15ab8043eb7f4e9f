@@ -1,0 +1,27 @@
+package com.image.rest;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ExceptionController
+{
+	private Logger logger = LoggerFactory.getLogger(ExceptionController.class);
+	
+	@GetMapping("/")
+	public String getException()
+	{
+		String msg =  "welcome aamir";
+		
+		try {
+			int i = 10/0;
+		} catch (Exception e) {
+			logger.info(e,e)
+		}
+		return msg;
+		
+	}
+
+}

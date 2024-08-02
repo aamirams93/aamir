@@ -1,0 +1,17 @@
+
+“
+java:S1149!"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".b 44f2f3b7f27e0930b2cc3f6340e0ca94h
+t
+java:S1854"@Remove this useless assignment to local variable "responseCode".b a9b96a9030b50a3fe58436d1400b3441h
+_
+java:S1874"+Remove this use of "URL"; it is deprecated.b e6b391a8d2c4d45902a23a8b6585703dh
+e
+java:S1481"1Remove this unused "responseCode" local variable.b 30f8cc0a3ad81545f79b55cd4a8d8c8eh
+^	java:S1061"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S1066"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106<"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106@"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^
+java:S2440>"#Remove this instantiation of "OTP".8ÎÃÙ—‡2b d9d1e60e50119d9752001d4196ee6b3ch
+p
+java:S2209?"5Change this instance-reference to a static reference.8ÎÃÙ—‡2b d2270e7120a93c8b0a6a34760e654c7dh

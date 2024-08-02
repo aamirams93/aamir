@@ -1,0 +1,13 @@
+
+Œ
+java:S2139"XEither log this exception and handle it, or rethrow it with some contextual information.b 87831d8b20e9ee815cc1b41055ddc1eah
+Y
+java:S3457"%String contains no format specifiers.b ab75b2e9b52f826f630622d78ad90bb7h
+i
+java:S1854"5Remove this useless assignment to local variable "i".b 6c087e94b4474f036dd283f9b0fb112ch
+w
+java:S3518"CMake sure this expression can't be zero before doing this division.b cfcd208495d565ef66e7dff9f98764dah
+‰
+java:S1450"URemove the "logger" field and declare it as a local variable in the relevant methods.b 6db435f352d7ea4a67807a3feb447bf7h
+Z
+java:S1481"&Remove this unused "i" local variable.b 865c0c0b4ab0e063e5caa3387c1a8741h

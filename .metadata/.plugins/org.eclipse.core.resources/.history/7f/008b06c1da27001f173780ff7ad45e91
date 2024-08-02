@@ -1,0 +1,14 @@
+package com.image.service;
+
+import org.springframework.stereotype.Service;
+
+import com.image.entity.Book;
+
+@Service
+public class BookClient
+{
+	public void invokeSaveBook()
+	{
+		Book bk = new Book();
+	}
+}

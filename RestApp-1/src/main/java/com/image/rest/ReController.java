@@ -1,0 +1,29 @@
+package com.image.rest;
+
+import org.springframework.http.HttpStatus;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ReController
+{
+	@GetMapping("/welcome")
+	public ResponseEntity<String> getWelcome(@RequestParam("name") String name)
+	{
+		String payLoad = name + ", Welcome to Rest Api";
+		return new ResponseEntity<String>(payLoad,HttpStatus.OK);
+		//query will be :- http://localhost:8080/welcome?name=aamir
+	}
+	
+	@GetMapping("/greet")
+	public String greet(@RequestParam("name") String name,@RequestParam("price") String price)
+	{
+		String pro = name + price +",good";
+		return pro;
+		
+		//query will be :-  http://localhost:8080/greet?name=aamir&price=10
+	}
+}

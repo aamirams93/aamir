@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+    <bean id="upi" class="org.ams.UpiPayment"/>
+
+	<bean id="billcollector"  class="org.ams.BillCollector">
+   
+		<property name="payment" ref="upi"></property>
+	</bean>
+</beans>  

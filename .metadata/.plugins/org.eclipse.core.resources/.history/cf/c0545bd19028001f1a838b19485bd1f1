@@ -1,0 +1,18 @@
+package com.image.rest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.image.props.ApplicationProperties;
+
+@RestController
+public class PropsController
+{
+	@Autowired
+	private ApplicationProperties apppro;
+
+	public String getWelcome()
+	{
+
+	}
+}

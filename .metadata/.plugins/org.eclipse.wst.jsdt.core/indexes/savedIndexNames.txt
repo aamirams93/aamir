@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/administrator/imageinfo-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1136181735.index
+1977664423.index
+1910785428.index
+1398603773.index
+1188909785.index
+1961450104.index
+906783398.index

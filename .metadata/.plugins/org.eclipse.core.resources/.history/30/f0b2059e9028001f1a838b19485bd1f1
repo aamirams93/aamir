@@ -1,0 +1,10 @@
+package com.image.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PropsController
+{
+
+	public 
+}

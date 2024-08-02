@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Spring-rest-yml-app
+server:
+  port: 8081
+
+image:
+  message:   
+   welcome: welcome to our portal
+   greet: Happy to You
+   

@@ -1,0 +1,23 @@
+package com.image.converter;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Unmarshaller;
+
+import com.image.binding.Persons;
+
+public class ConvertXmlToJava
+{
+	public static void main(String[] args) throws Exception
+	{
+		File xmlFile = new File("Persons.xml");
+		JAXBContext ctx = JAXBContext.newInstance(Persons.class);
+		Unmarshaller um = ctx.createUnmarshaller();
+		Object obj = um.unmarshal(xmlFile);
+		Persons p =  (Persons) obj;
+		System.out.println(p);
+		
+	}
+
+}

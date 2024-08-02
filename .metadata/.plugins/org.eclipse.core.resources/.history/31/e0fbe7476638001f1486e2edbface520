@@ -1,0 +1,12 @@
+package com.image.entity;
+
+public class Cart
+{
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+
+	@ManyToOne
+	@JoinColumn(name = "customer_id")
+	private User customer;
+}

@@ -1,0 +1,21 @@
+package com.image.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.StreamingHttpOutputMessage.Body;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import com.image.binding.Product;
+
+import ch.qos.logback.core.status.Status;
+
+@RestController
+public class ProductController
+{
+	public ResponseEntity<String> addproduct(@RequestMapping Product pr)
+	{
+		System.out.println(pr);
+		return ResponseEntity<String>(Body,Status)
+	}
+}

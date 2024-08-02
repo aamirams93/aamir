@@ -1,0 +1,8 @@
+package com.image.binding;
+
+
+public class CustomerEvent
+{
+	public String name;
+	public java.util.Date
+}

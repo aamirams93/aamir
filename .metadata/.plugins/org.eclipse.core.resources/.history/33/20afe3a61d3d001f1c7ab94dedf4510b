@@ -1,0 +1,6 @@
+package com.image.entity;
+
+public class BookService
+{
+
+}

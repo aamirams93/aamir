@@ -1,0 +1,7 @@
+package com.image.binding;
+
+@xmlroo
+public class Bindings
+{
+
+}

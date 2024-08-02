@@ -1,0 +1,11 @@
+package com.image.binding;
+
+
+public class Persons
+{
+	private Integer id;
+	private String name;
+	private Integer age; 
+	private String phoneNo;
+
+}

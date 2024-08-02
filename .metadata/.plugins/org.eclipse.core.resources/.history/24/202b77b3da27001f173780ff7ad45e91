@@ -1,0 +1,9 @@
+package com.image.service;
+
+public class BookClient
+{
+	public void invokeSaveBook()
+	{
+		
+	}
+}

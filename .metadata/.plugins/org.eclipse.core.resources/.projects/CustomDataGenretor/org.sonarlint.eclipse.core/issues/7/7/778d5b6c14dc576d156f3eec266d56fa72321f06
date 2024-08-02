@@ -1,0 +1,5 @@
+
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 6d33c73ee517e57ebf7cce1555a6959bh
+Ö	java:S116"RRename this field "OrderId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 0651f2341d009fb9a26daa9d687394efh
+Ö	java:S116"RRename this field "OrderBy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 9c8b55d949f6623dfb4c2c5041483871h
+ç	java:S116"ZRename this field "OrderPlacedDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 3708df775a01deb118264fb38ff42f75h

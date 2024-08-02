@@ -1,0 +1,12 @@
+package com.image.binding;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class CustomerEvent
+{
+	public String name;
+	public Date creaeDate;
+}
